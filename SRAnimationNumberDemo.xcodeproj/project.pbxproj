@@ -13,9 +13,9 @@
 		684A2BCF2043E4E40016F22A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 684A2BCE2043E4E40016F22A /* Assets.xcassets */; };
 		684A2BD22043E4E40016F22A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 684A2BD02043E4E40016F22A /* LaunchScreen.storyboard */; };
 		684A2BD52043E4E40016F22A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 684A2BD42043E4E40016F22A /* main.m */; };
-		684A2BDE2043E5380016F22A /* SRAnimationNumberEngine.m in Sources */ = {isa = PBXBuildFile; fileRef = 684A2BDD2043E5380016F22A /* SRAnimationNumberEngine.m */; };
-		684A2BE12043E5610016F22A /* UILabel+SRAnimationNumber.m in Sources */ = {isa = PBXBuildFile; fileRef = 684A2BE02043E5610016F22A /* UILabel+SRAnimationNumber.m */; };
-		684A2BE42043E56A0016F22A /* UIButton+SRAnimationNumber.m in Sources */ = {isa = PBXBuildFile; fileRef = 684A2BE32043E56A0016F22A /* UIButton+SRAnimationNumber.m */; };
+		6E36844F215FBE94000A2F3A /* UILabel+SRAnimationNumber.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E36844B215FBE94000A2F3A /* UILabel+SRAnimationNumber.m */; };
+		6E368450215FBE94000A2F3A /* UIButton+SRAnimationNumber.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E36844C215FBE94000A2F3A /* UIButton+SRAnimationNumber.m */; };
+		6E368451215FBE94000A2F3A /* SRAnimationNumberEngine.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E36844D215FBE94000A2F3A /* SRAnimationNumberEngine.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,12 +29,12 @@
 		684A2BD12043E4E40016F22A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		684A2BD32043E4E40016F22A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		684A2BD42043E4E40016F22A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		684A2BDC2043E5380016F22A /* SRAnimationNumberEngine.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SRAnimationNumberEngine.h; sourceTree = "<group>"; };
-		684A2BDD2043E5380016F22A /* SRAnimationNumberEngine.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SRAnimationNumberEngine.m; sourceTree = "<group>"; };
-		684A2BDF2043E5610016F22A /* UILabel+SRAnimationNumber.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UILabel+SRAnimationNumber.h"; sourceTree = "<group>"; };
-		684A2BE02043E5610016F22A /* UILabel+SRAnimationNumber.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UILabel+SRAnimationNumber.m"; sourceTree = "<group>"; };
-		684A2BE22043E56A0016F22A /* UIButton+SRAnimationNumber.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIButton+SRAnimationNumber.h"; sourceTree = "<group>"; };
-		684A2BE32043E56A0016F22A /* UIButton+SRAnimationNumber.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIButton+SRAnimationNumber.m"; sourceTree = "<group>"; };
+		6E368449215FBE94000A2F3A /* SRAnimationNumberEngine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SRAnimationNumberEngine.h; sourceTree = "<group>"; };
+		6E36844A215FBE94000A2F3A /* UIButton+SRAnimationNumber.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+SRAnimationNumber.h"; sourceTree = "<group>"; };
+		6E36844B215FBE94000A2F3A /* UILabel+SRAnimationNumber.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UILabel+SRAnimationNumber.m"; sourceTree = "<group>"; };
+		6E36844C215FBE94000A2F3A /* UIButton+SRAnimationNumber.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+SRAnimationNumber.m"; sourceTree = "<group>"; };
+		6E36844D215FBE94000A2F3A /* SRAnimationNumberEngine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SRAnimationNumberEngine.m; sourceTree = "<group>"; };
+		6E36844E215FBE94000A2F3A /* UILabel+SRAnimationNumber.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UILabel+SRAnimationNumber.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,7 +67,7 @@
 		684A2BC42043E4E40016F22A /* SRAnimationNumberDemo */ = {
 			isa = PBXGroup;
 			children = (
-				684A2BDB2043E5120016F22A /* SRAnimationNumber */,
+				6E368448215FBE94000A2F3A /* SRAnimationNumber */,
 				684A2BC52043E4E40016F22A /* AppDelegate.h */,
 				684A2BC62043E4E40016F22A /* AppDelegate.m */,
 				684A2BC82043E4E40016F22A /* ViewController.h */,
@@ -81,18 +81,18 @@
 			path = SRAnimationNumberDemo;
 			sourceTree = "<group>";
 		};
-		684A2BDB2043E5120016F22A /* SRAnimationNumber */ = {
+		6E368448215FBE94000A2F3A /* SRAnimationNumber */ = {
 			isa = PBXGroup;
 			children = (
-				684A2BDC2043E5380016F22A /* SRAnimationNumberEngine.h */,
-				684A2BDD2043E5380016F22A /* SRAnimationNumberEngine.m */,
-				684A2BDF2043E5610016F22A /* UILabel+SRAnimationNumber.h */,
-				684A2BE02043E5610016F22A /* UILabel+SRAnimationNumber.m */,
-				684A2BE22043E56A0016F22A /* UIButton+SRAnimationNumber.h */,
-				684A2BE32043E56A0016F22A /* UIButton+SRAnimationNumber.m */,
+				6E368449215FBE94000A2F3A /* SRAnimationNumberEngine.h */,
+				6E36844D215FBE94000A2F3A /* SRAnimationNumberEngine.m */,
+				6E36844E215FBE94000A2F3A /* UILabel+SRAnimationNumber.h */,
+				6E36844B215FBE94000A2F3A /* UILabel+SRAnimationNumber.m */,
+				6E36844A215FBE94000A2F3A /* UIButton+SRAnimationNumber.h */,
+				6E36844C215FBE94000A2F3A /* UIButton+SRAnimationNumber.m */,
 			);
 			path = SRAnimationNumber;
-			sourceTree = "<group>";
+			sourceTree = SOURCE_ROOT;
 		};
 /* End PBXGroup section */
 
@@ -165,10 +165,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				684A2BE42043E56A0016F22A /* UIButton+SRAnimationNumber.m in Sources */,
 				684A2BCA2043E4E40016F22A /* ViewController.m in Sources */,
-				684A2BE12043E5610016F22A /* UILabel+SRAnimationNumber.m in Sources */,
-				684A2BDE2043E5380016F22A /* SRAnimationNumberEngine.m in Sources */,
+				6E368451215FBE94000A2F3A /* SRAnimationNumberEngine.m in Sources */,
+				6E368450215FBE94000A2F3A /* UIButton+SRAnimationNumber.m in Sources */,
+				6E36844F215FBE94000A2F3A /* UILabel+SRAnimationNumber.m in Sources */,
 				684A2BD52043E4E40016F22A /* main.m in Sources */,
 				684A2BC72043E4E40016F22A /* AppDelegate.m in Sources */,
 			);
